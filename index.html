@@ -6,25 +6,342 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lovable</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header class="navbar">
-        <a href="/">
-            <img src="logowhite.svg" alt="Lovable logo">
-        </a>
-        <nav>
-            <a href="#">Solutions</a>
-            <a href="#">Resources</a>
-            <a href="#">Enterprise</a>
-            <a href="#">Pricing</a>
-            <a href="#">Community</a>
-        </nav>
+        <div class="nav-left">
+            <a href="#">
+                <img src="logoblack.svg" alt="Lovable logo">
+            </a>
+
+            <div class="nav">
+                <div class="dropdown">
+                    <a href="#">Solutions <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu big">
+                        <div>
+                            <p>Founders</p>
+                            <p>Product Managers</p>
+                            <p>Designers</p>
+                            <p>Marketers</p>
+                            <p>Sales</p>
+                        </div>
+                        <div class="line"></div>
+                        <div>
+                            <p>Prototyping</p>
+                            <p>Internal Tools</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="#">Resources <i class="fa-solid fa-angle-down"></i></a>
+                    <div class="dropdown-menu big">
+                        <p>Discover</p>
+                        <p>Blog</p>
+                        <p>Partners</p>
+                    </div>
+                </div>
+
+                <a href="#">Enterprise</a>
+                <a href="#">Pricing</a>
+                <a href="#">Community</a>
+            </div>
+        </div>
+
         <div class="nav-btns">
             <button class="login">Log in</button>
             <button class="start">Get started</button>
         </div>
     </header>
+    <!-- hero -->
+    <section class="hero">
+        <span class="badge">New</span>
+        <p class="new-text">Introducing a smarter Lovable <i class="fa-solid fa-arrow-right"></i></p>
+        <h1>Build something Lovable</h1>
+        <p class="sub-text">Create apps and websites by chatting with AI</p>
+
+        <div class="input-box">
+            <span>Ask Lovable to create a web app that...</span>
+            <button class="send-btn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- template -->
+    <section class="templates">
+        <div class="head">
+            <h2>Discover templates</h2>
+            <p>Start your next project with a template</p>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Fecommerce-store-1-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Ecommerce Store Website Template</h3>
+                <p>Premium design for webstore</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Farchitect-portfolio-1-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Architect Portfolio Website Template</h3>
+                <p>Firm website & showcase</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fpub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev%2Fa8b116a9-20b6-43a8-ae91-693ba5a35c3b%2Fid-preview-172571d0--7410f81b-8218-4f2d-bb32-1ba1f84eabb2.lovable.app-1760028648399.png&w=1080&q=75"
+                    alt="">
+                <h3>Personal blog</h3>
+                <p>Muted, intimate design</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Fvesper-screenshot.webp&w=1080&q=75" alt="">
+                <h3>Fashion blog</h3>
+                <p>Minimal, playful design</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Fvisual-landing-page-1-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Visual Landing Page</h3>
+                <p>Showcase your company</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Flifestyle-blog-3-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Lifestyle Blog</h3>
+                <p>Sophisticated blog design</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Fevent-platform-1-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Event Platform Website</h3>
+                <p>Find, register, create events</p>
+            </div>
+
+            <div class="card">
+                <img src="https://lovable.dev/_next/image?url=%2Ftemplates%2Fhobby-photographer-screenshot.webp&w=1080&q=75"
+                    alt="">
+                <h3>Personal Portfolio</h3>
+                <p>Personal work showcase</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps -->
+    <section class="apps">
+        <div class="apps-head">
+            <div>
+                <h2>Discover apps</h2>
+                <p>Explore what others are building</p>
+            </div>
+            <a href="#" class="view-all">View all →</a>
+        </div>
+
+        <div class="apps-grid">
+            <!-- Card -->
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FUTlQnbzsMUe5xVCQW6aDkhtQUxs2%2Fsocial-1757627848363-Cover.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo">I</div>
+                        <div>
+                            <h4>Iconstack</h4>
+                            <p>50,000+ Free SVG Icons</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 811</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FOSOuJfW3GTegj9Fly29hLVNloI93%2FScreenshot%202026-01-01%20at%207.10.14%E2%80%AFPM.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo purple">E</div>
+                        <div>
+                            <h4>ExamAi</h4>
+                            <p>Create, grade, and analyze</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 684</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FALj9BEIeZMXsfYd3hqMd972rzls2%2FHeading%20(1).png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo blue">A</div>
+                        <div>
+                            <h4>Attendflow</h4>
+                            <p>Event marketing made simple</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 638</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2F1NRL1SXSq0PQLvkCcfkSUwAzKrN2%2F1.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo orange">C</div>
+                        <div>
+                            <h4>Creativable</h4>
+                            <p>All-in-one CRM & AI</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 406</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FUTlQnbzsMUe5xVCQW6aDkhtQUxs2%2FScreenshot%202025-11-24%20at%2015.50.14.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo orange">M</div>
+                        <div>
+                            <h4>Pilates Circle by Cult</h4>
+                            <p>Move, full circle.</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 344</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2Fnn22w70E2jWKGpHvftbNLhoEVpY2%2Fheroimage-lovable.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo blue">O</div>
+                        <div>
+                            <h4>Opux AI</h4>
+                            <p>Every successful app start here</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 334</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FlFLQD4G4AdaKMu3Y2t61VEd6c0h2%2Flanding%20page.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo orange">N</div>
+                        <div>
+                            <h4>NeuroTunes AI</h4>
+                            <p>Adaptive music streaming engine for on-demand focus and calm</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 270</div>
+                </div>
+            </div>
+
+            <div class="app-card">
+                <img src="https://lovable.dev/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgpt-engineer-file-uploads%2FzHVyO6oiNXTuPW6ymEYgo8SJDuG2%2F1.png&w=384&q=75"
+                    alt="">
+                <div class="app-info">
+                    <div class="app-left">
+                        <div class="app-logo purple">S</div>
+                        <div>
+                            <h4>Schedra</h4>
+                            <p>All-in-One Content Creation Platform</p>
+                        </div>
+                    </div>
+                    <div class="like"><i class="fa-regular fa-heart"></i> 160</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="footer-box">
+            <div class="brand">
+                <div class="logo"><i class="fa-regular fa-heart"></i></div>
+                <div class="lang"><i class="fa-solid fa-globe"></i> EN</div>
+            </div>
+
+            <div class="cols">
+                <div class="col">
+                    <h4>Company</h4>
+                    <a href="#">Careers</a>
+                    <a href="#">Press & media</a>
+                    <a href="#">Enterprise</a>
+                    <a href="#">Security</a>
+                    <a href="#">Trust center</a>
+                    <a href="#">Partnerships</a>
+                </div>
+
+                <div class="col">
+                    <h4>Product</h4>
+                    <a href="#">Pricing</a>
+                    <a href="#">Student discount</a>
+                    <a href="#">Founders</a>
+                    <a href="#">Product Managers</a>
+                    <a href="#">Designers</a>
+                    <a href="#">Marketers</a>
+                    <a href="#">Sales</a>
+                    <a href="#">Prototyping</a>
+                    <a href="#">Internal Tools</a>
+                    <a href="#">Connections</a>
+                    <a href="#">Changelog</a>
+                    <a href="#">Status</a>
+                </div>
+
+                <div class="col">
+                    <h4>Resources</h4>
+                    <a href="#">Learn</a>
+                    <a href="#">Templates</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Support</a>
+                </div>
+
+                <div class="col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy policy</a>
+                    <a href="#">Cookie settings</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Platform rules</a>
+                    <a href="#">Report abuse</a>
+                    <a href="#">Report security concerns</a>
+                    <a href="#">DPA</a>
+                </div>
+
+                <div class="col">
+                    <h4>Community</h4>
+                    <a href="#">Apply to our expert program</a>
+                    <a href="#">Hire a Lovable expert</a>
+                    <a href="#">Affiliates</a>
+                    <a href="#">Code of conduct</a>
+                    <a href="#">Discord</a>
+                    <a href="#">Reddit</a>
+                    <a href="#">X / Twitter</a>
+                    <a href="#">YouTube</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 </body>
 
